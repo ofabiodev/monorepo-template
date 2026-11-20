@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "bun --filter '*' build",
+    "lint": "bun --filter '*' lint"
+  }
+}

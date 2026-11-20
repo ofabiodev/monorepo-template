@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Env files (keep the *.example ones committed)
+.env
+.env.local
+*.local
+
+# Build output
+dist
+dist-ssr
+bin/
+tmp/
+
+# Logs
+*.log
+
+# Editors / OS
+.idea
+.vscode
+.DS_Store
